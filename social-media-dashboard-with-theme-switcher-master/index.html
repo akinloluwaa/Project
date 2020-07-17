@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
+
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+
+<body>
+
+    <div class="container">
+        <section class="top-box">
+            <div class="display">
+                <div class="summary">
+                    <h1 class="dashboard-header">Social Media Dashboard</h1>
+                    <h3 class="total-follow">Total Followers: 23,004</h3>
+                </div>
+                <div class="mode">
+                    <h3 class="mode-text">Dark Mode</h3>
+                    <div class="mode-toggle" id="mode-toggle" onclick="this.classList.toggle('light')">
+                        <div class="toggle-box">
+                            <div class="toggle-circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="followers">
+                <div class="follower-display rise facebook">
+                    <div class="media-handles">
+                        <img src="./images/icon-facebook.svg" alt="icon-facebook">
+                        <h3>@nathanf</h3>
+                    </div>
+                    <div class="rates">
+                        <h2>1987</h2>
+                        <h4>Followers</h4>
+                    </div>
+                    <div class="recent">
+                        <img src="./images/icon-up.svg" alt="Rise">
+                        <h4>12 Today</h4>
+                    </div>
+                </div>
+                <div class="follower-display rise twitter">
+                    <div class="media-handles">
+                        <img src="./images/icon-twitter.svg" alt="icon-twitter">
+                        <h3>@nathanf</h3>
+                    </div>
+                    <div class="rates">
+                        <h2>1044</h2>
+                        <h4>Followers</h4>
+                    </div>
+                    <div class="recent">
+                        <img src="./images/icon-up.svg" alt="Rise">
+                        <h4>99 Today</h4>
+                    </div>
+                </div>
+                <div class="follower-display rise instagram">
+                    <div class="media-handles">
+                        <img src="./images/icon-instagram.svg" alt="icon-instagram">
+                        <h3>@nathanf</h3>
+                    </div>
+                    <div class="rates">
+                        <h2>11K</h2>
+                        <h4>Followers</h4>
+                    </div>
+                    <div class="recent">
+                        <img src="./images/icon-up.svg" alt="Rise">
+                        <h4>1099 Today</h4>
+                    </div>
+                </div>
+                <div class="follower-display drop youtube">
+                    <div class="media-handles">
+                        <img src="./images/icon-youtube.svg" alt="icon-youtube">
+                        <h3> Nathan F.</h3>
+                    </div>
+                    <div class="rates">
+                        <h2>8239</h2>
+                        <h4>Subcribers</h4>
+                    </div>
+                    <div class="recent">
+                        <img src="./images/icon-down.svg" alt="Drop">
+                        <h4>144 Today</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bottom-box">
+            <h1>Overview - Today</h1>
+            <div class="overview">
+                <div class="overview-box rise">
+                    <div class="text">
+                        <h2>Page Views</h2>
+                    </div>
+                    <div class="icon"><img src="./images/icon-facebook.svg" alt="icon-facebook"></div>
+                    <div class="number">
+                        <h2>87</h2>
+                    </div>
+                    <div class="percent">
+                        <img src="./images/icon-up.svg" alt="Rise">
+                        <h3>3%</h3>
+                    </div>
+                </div>
+                <div class="overview-box drop">
+                    <div class="text">
+                        <h2>Likes</h2>
+                    </div>
+                    <div class="icon"><img src="./images/icon-facebook.svg" alt="icon-facebook"></div>
+                    <div class="number">
+                        <h2>52</h2>
+                    </div>
+                    <div class="percent">
+                        <img src="./images/icon-down.svg" alt="Drop">
+                        <h3>2%</h3>
+                    </div>
+                </div>
+                <div class="overview-box rise">
+                    <div class="text">
+                        <h2>Likes</h2>
+                    </div>
+                    <div class="icon"><img src="./images/icon-instagram.svg" alt="icon-instagram"></div>
+                    <div class="number">
+                        <h2>5462</h2>
+                    </div>
+                    <div class="percent">
+                        <img src="./images/icon-up.svg" alt="Rise">
+                        <h3>2257%</h3>
+                    </div>
+                </div>
+                <div class="overview-box rise">
+                    <div class="text">
+                        <h2>Profile Views</h2>
+                    </div>
+                    <div class="icon"><img src="./images/icon-instagram.svg" alt="icon-instagram"></div>
+                    <div class="number">
+                        <h2>52k</h2>
+                    </div>
+                    <div class="percent">
+                        <img src="./images/icon-up.svg" alt="Rise">
+                        <h3>1375%</h3>
+                    </div>
+                </div>
+                <div class="overview-box rise">
+                    <div class="text">
+                        <h2>Retweets</h2>
+                    </div>
+                    <div class="icon"><img src="./images/icon-twitter.svg" alt="icon-twitter"></div>
+                    <div class="number">
+                        <h2>117</h2>
+                    </div>
+                    <div class="percent">
+                        <img src="./images/icon-up.svg" alt="Rise">
+                        <h3>303%</h3>
+                    </div>
+                </div>
+                <div class="overview-box rise">
+                    <div class="text">
+                        <h2>Likes</h2>
+                    </div>
+                    <div class="icon"><img src="./images/icon-twitter.svg" alt="icon-twitter"></div>
+                    <div class="number">
+                        <h2>507</h2>
+                    </div>
+                    <div class="percent">
+                        <img src="./images/icon-up.svg" alt="Rise">
+                        <h3>553%</h3>
+                    </div>
+                </div>
+                <div class="overview-box drop">
+                    <div class="text">
+                        <h2>Likes</h2>
+                    </div>
+                    <div class="icon"><img src="./images/icon-youtube.svg" alt="icon-youtube"></div>
+                    <div class="number">
+                        <h2>107</h2>
+                    </div>
+                    <div class="percent">
+                        <img src="./images/icon-down.svg" alt="Drop">
+                        <h3>19%</h3>
+                    </div>
+                </div>
+                <div class="overview-box drop">
+                    <div class="text">
+                        <h2>Total Views</h2>
+                    </div>
+                    <div class="icon"><img src="./images/icon-youtube.svg" alt="icon-youtube"></div>
+                    <div class="number">
+                        <h2>1407</h2>
+                    </div>
+                    <div class="percent">
+                        <img src="./images/icon-down.svg" alt="Drop">
+                        <h3>12%</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Your Name Here</a>.
+        </div>
+    </div>
+</body>
+
+</html>
